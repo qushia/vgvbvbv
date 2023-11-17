@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body onload="getData()">
+    
+    <form id="task" onsubmit="return false">
+    <div class="select">
+
+   <div class="input">
+        <input name="name" type="name" placeholder="name lname">
+        <input name="lname" type="email" placeholder="email">
+        <input name="email" type="text" placeholder="location">
+        <input name="location" type="many" placeholder="salary">
+      
+     </div>
+     <div class="selectors">
+        <select name="selector">
+            <option value="react">React</option>
+            <option value="angular">Angular</option>
+            <option value="java">Java</option>
+            <option value="piyton">Piyton</option>
+            <option value="php">Php</option>
+        </select>
+     
+        <button onclick="addTask()">addTask</button>
+    </div>
+</div>
+    </form>
+    
+    <div class="main_conteiner">
+        <div class="header">
+            <div class="headertext">React</div>
+            <div class="headertext">Angular</div>
+            <div class="headertext">Java</div>
+            <div class="headertext">Piyton</div>
+            <div class="headertext">Php</div>
+        </div>
+    <div class="conteiner">
+    <div class="name" id="inpo"></div>
+    <div class="age" id="inpo2"></div>
+    <div class="job" id="inpo3"></div>
+    <div class="stydent" id="inpo4"></div>
+    <div class="goal" id="inpo5"></div>
+    </div>
+</div>
+
+</body>
+</html>

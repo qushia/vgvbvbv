@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "name": 1,
+      "desc": "json-server",
+      "assign": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "name": "saba",
+      "lname": "saba.mumladze.sm@gmail.com",
+      "email": "tbilisi",
+      "location": "8000$",
+      "selector": "react",
+      "id": 1
+    },
+    {
+      "name": "luka",
+      "lname": "luka.osadze.434@gmail.com",
+      "email": "TBILISI",
+      "location": "8000$",
+      "selector": "react",
+      "id": 2
+    },
+    {
+      "name": "nino",
+      "lname": "nino.polafashvili.nn@gmail.com",
+      "email": "TBILISI/ZESTAFONI",
+      "location": "3000$",
+      "selector": "angular",
+      "id": 3
+    },
+    {
+      "name": "giorgi",
+      "lname": "giorgi.mlk.32@gmail.com",
+      "email": "ZESTAFONI",
+      "location": "8000$",
+      "selector": "angular",
+      "id": 4
+    },
+    {
+      "name": "tako",
+      "lname": "tako.twaqadze.32@gmail.com",
+      "email": "qutaisi",
+      "location": "7000$",
+      "selector": "java",
+      "id": 5
+    },
+    {
+      "name": "fato",
+      "lname": "dato.ddtt.2004@gmail.com",
+      "email": "batumi",
+      "location": "5000$",
+      "selector": "piyton",
+      "id": 6
+    },
+    {
+      "name": "nika",
+      "lname": "nika.kalichava.2000@gmail.com",
+      "email": "zugdidi",
+      "location": "3000$",
+      "selector": "php",
+      "id": 7
+    }
+  ]
+}
